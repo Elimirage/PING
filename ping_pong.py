@@ -3,6 +3,8 @@ win_width = 700
 win_height = 500
 FPS = 60
 clock= time.Clock()
+FPS = 60
+clock= time.Clock()
 window = display.set_mode((win_width, win_height))
 display.set_caption('PP')
 background = transform.scale(image.load('galaxy.jpg'),(win_width, win_height))
